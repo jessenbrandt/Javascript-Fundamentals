@@ -63,22 +63,32 @@ let colors = ['blue', 'green', 'yellow', 'red', 'grey', 'black'];
 console.log(colors.length);
 console.log(colors.toString()); // puts your array in a string
 
-let family = ['Mom', 'Dad', 'Sister', 'Brother', 'Grandma', 'Grandpa'];
-console.log(family.length);
-console.log(family.toString());
-family.forEach((value, number) => {console.log(number); console.log(value)});
 
 //PRACTICE
 
 let holidays = ['Halloween', 'Thanksgiving', 'Christmas', 'New Years', `Valentine's Day`];
-console.log(holidays instanceof Array);
+//console.log(holidays instanceof Array);
 holidays.reverse()
 holidays.forEach((value, number) => {console.log(number); console.log(value)});
 
 let arr = new Array(1,2,3,4,5)
+
 //console.log(arr)
 
-if (arr instaneof Array === true) {
-    let revArr = arr.reverse()
-    revArr.forEach(value => console.log(value))
+// if (arr instaneof Array === true) {
+//     let revArr = arr.reverse()
+//     revArr.forEach(value => console.log(value))
+// }
+
+
+let originalArray = [1,2,3,4,5,6,7,8,9,10];
+
+function even(a) {
+  let ar = [];
+
+  for (let i = 0; i < a.length; i++) {
+    ar.push(a[2 * i + 1]);
+  }
 }
+
+console.log(even(originalArray));

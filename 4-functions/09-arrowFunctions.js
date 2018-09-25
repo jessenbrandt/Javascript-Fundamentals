@@ -39,7 +39,7 @@ let clock = (t, r, e, s) => {};
 
 let func = () => console.log('good'); //okay
 
-let function = ()
-    => console.log('bad') //NOT OKAYYY
+//let function = ()
+   // => console.log('bad') //NOT OKAYYY
 
 // let function = ()

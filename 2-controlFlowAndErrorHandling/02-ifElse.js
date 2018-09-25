@@ -46,7 +46,7 @@ if (coffee == 'hot') {
     console.log('do something else again')
 }
 
-let age = 29
+let age = 29 
 
 if (age >= 25) {
     console.log('Yay! You can rent a car, drink, and vote!')
@@ -57,3 +57,11 @@ if (age >= 25) {
 } else { (age <= 17)
     console.log('You are too young to do anything.')
 }
+
+
+let arr = [1, 2, 3, 4, 5, 6];
+let even = [];
+for(var i = 0; i < arr.length; i++) {
+  if (arr[i] % 2 === 0) even.push(arr[i]);
+}
+console.log(even);
